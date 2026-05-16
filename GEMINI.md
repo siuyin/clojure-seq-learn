@@ -1,3 +1,18 @@
+# Software Development Guidelines
+
+When planning and implementing software development tasks in this project, adhere to the following principles:
+
+1. **Test Driven Development (TDD):** Always write tests before implementing the corresponding functionality. Ensure that all new features and bug fixes are verified by automated tests.
+2. **Naming Conventions:** Select clear, descriptive, but concise function names that accurately reflect their purpose.
+3. **Function Length:** Keep functions focused and manageable. Aim for a length between 5 and 15 lines of code.
+4. **Modularity:** Break up complex logic into independent, coherent modules.
+5. **Library Design & Stuttering:**
+    - Organise modules into logical libraries.
+    - Avoid "stuttering" in function names. When a function is part of a library, its name should not repeat the library's name as a prefix.
+    - **Example:** Prefer `csv.read()` over `csv.read_csv()`.
+
+---
+
 # Clojure Sequence Learning Project
 
 This project is dedicated to exploring and mastering Clojure's sequence abstraction.
@@ -37,3 +52,4 @@ When asked to add a new example:
 3. Implement illustrative examples with clear comments explaining the behavior.
 4. Add a corresponding test file in `test/` to verify the examples.
 5. Update `learning_plan.txt` if the plan changes.
+6. Verify changes using `clojure -X:test`.
