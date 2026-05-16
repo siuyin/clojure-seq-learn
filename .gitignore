@@ -1,0 +1,38 @@
+*.swap
+*secret*
+
+# Compiled files and build artifacts
+target/
+classes/
+checkouts/
+pom.xml
+pom.xml.asc
+*.jar
+*.war
+*.ear
+
+# Clojure CLI / deps.edn cache
+.cpcache/
+
+# REPL and editor specific
+.nrepl-port
+.repl-history
+.calva/
+.lsp/
+.clj-kondo/
+.shadow-cljs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+.vscode/
+
+# Logs
+*.log
