@@ -10,19 +10,19 @@ Goal: Understand that sequences are a logical view, not a physical collection.
 Planned Example: `src/basics.clj`
 Verified: `test/seq_learn/basics_test.clj`
 
-Phase 2: Sequence Generation
+Phase 2: Sequence Generation [DONE]
 ----------------------------
 Concepts: range, repeat, replicate, cycle, iterate.
 Goal: Learn how to create sequences programmatically.
 Planned Example: `src/generation.clj`
 
-Phase 3: Transformations
+Phase 3: Transformations [DONE]
 ------------------------
 Concepts: map, filter, remove, mapcat, keep.
 Goal: Master core sequence transformation functions.
 Planned Example: `src/transformations.clj`
 
-Phase 4: Subsequences & Partitioning
+Phase 4: Subsequences & Partitioning [DONE]
 ------------------------------------
 Concepts: take, drop, split-at, take-while, drop-while, partition, partition-by.
 Goal: Learn how to slice and dice sequences.
