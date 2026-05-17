@@ -1,4 +1,4 @@
-(ns seq-learn.performance
+(ns seq-learn.06-performance
   "Illustrating performance optimizations: chunking and transducers.")
 
 ;; 1. Chunking Behavior

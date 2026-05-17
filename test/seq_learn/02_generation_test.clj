@@ -1,6 +1,6 @@
-(ns seq-learn.generation-test
+(ns seq-learn.02-generation-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.generation :as gen]))
+            [seq-learn.02-generation :as gen]))
 
 (deftest range-test
   (testing "range generation with various arities"

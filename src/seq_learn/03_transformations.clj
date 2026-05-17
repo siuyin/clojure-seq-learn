@@ -1,4 +1,4 @@
-(ns seq-learn.transformations
+(ns seq-learn.03-transformations
   "Illustrating core sequence transformation functions in Clojure.")
 
 ;; 1. map

@@ -1,6 +1,6 @@
-(ns seq-learn.basics-test
+(ns seq-learn.01-basics-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.basics :as basics]))
+            [seq-learn.01-basics :as basics]))
 
 (deftest seq-function-test
   (testing "seq returns sequence views of various collections"

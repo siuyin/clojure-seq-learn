@@ -1,4 +1,4 @@
-(ns seq-learn.generation
+(ns seq-learn.02-generation
   "Illustrating programmatic sequence generation in Clojure.")
 
 ;; 1. range

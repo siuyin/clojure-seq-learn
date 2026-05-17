@@ -1,4 +1,4 @@
-(ns seq-learn.basics
+(ns seq-learn.01-basics
   "Illustrating the core Clojure sequence abstraction.")
 
 ;; 1. The 'seq' function

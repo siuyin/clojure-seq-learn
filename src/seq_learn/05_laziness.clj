@@ -1,4 +1,4 @@
-(ns seq-learn.laziness
+(ns seq-learn.05-laziness
   "Illustrating laziness and infinite sequences in Clojure.")
 
 ;; 1. The lazy-seq macro

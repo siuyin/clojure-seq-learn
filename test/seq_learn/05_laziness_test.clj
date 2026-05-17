@@ -1,6 +1,6 @@
-(ns seq-learn.laziness-test
+(ns seq-learn.05-laziness-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.laziness :as lazy]))
+            [seq-learn.05-laziness :as lazy]))
 
 (deftest custom-range-test
   (testing "custom lazy range using lazy-seq"

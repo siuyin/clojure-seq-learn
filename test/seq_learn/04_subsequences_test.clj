@@ -1,6 +1,6 @@
-(ns seq-learn.subsequences-test
+(ns seq-learn.04-subsequences-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.subsequences :as sub]))
+            [seq-learn.04-subsequences :as sub]))
 
 (deftest take-drop-test
   (testing "take and drop operations"

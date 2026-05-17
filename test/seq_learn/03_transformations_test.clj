@@ -1,6 +1,6 @@
-(ns seq-learn.transformations-test
+(ns seq-learn.03-transformations-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.transformations :as trans]))
+            [seq-learn.03-transformations :as trans]))
 
 (deftest map-test
   (testing "map transformations"

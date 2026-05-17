@@ -1,4 +1,4 @@
-(ns seq-learn.subsequences
+(ns seq-learn.04-subsequences
   "Illustrating subsequence and partitioning functions in Clojure.")
 
 ;; 1. take & drop

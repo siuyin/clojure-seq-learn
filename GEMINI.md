@@ -38,8 +38,8 @@ Core functions:
 ## Project Conventions
 
 ### Namespace Naming
-- Examples should be in `src/` under appropriate names (e.g., `src/basics.clj`).
-- Use the namespace pattern `seq-learn.<topic>` (e.g., `seq-learn.basics`).
+- Examples should be in `src/` under appropriate names (e.g., `src/seq_learn/01_basics.clj`).
+- Use the namespace pattern `seq-learn.<topic>` (e.g., `seq-learn.01-basics`).
 
 ### Verification
 - Each example should be accompanied by tests in `test/` or include `(comment ...)` blocks with verifiable results.

@@ -1,6 +1,6 @@
-(ns seq-learn.performance-test
+(ns seq-learn.06-performance-test
   (:require [clojure.test :refer [deftest is testing]]
-            [seq-learn.performance :as perf]))
+            [seq-learn.06-performance :as perf]))
 
 (deftest chunking-test
   (testing "chunking behavior: realizing one item realizes a chunk of 32"

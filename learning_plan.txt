@@ -7,35 +7,35 @@ Phase 1: The Sequence Abstraction [DONE]
 ---------------------------------
 Concepts: ISeq interface, first, rest, cons, seq.
 Goal: Understand that sequences are a logical view, not a physical collection.
-Planned Example: `src/basics.clj`
-Verified: `test/seq_learn/basics_test.clj`
+Planned Example: `src/seq_learn/01_basics.clj`
+Verified: `test/seq_learn/01_basics_test.clj`
 
 Phase 2: Sequence Generation [DONE]
 ----------------------------
 Concepts: range, repeat, replicate, cycle, iterate.
 Goal: Learn how to create sequences programmatically.
-Planned Example: `src/generation.clj`
+Planned Example: `src/seq_learn/02_generation.clj`
 
 Phase 3: Transformations [DONE]
 ------------------------
 Concepts: map, filter, remove, mapcat, keep.
 Goal: Master core sequence transformation functions.
-Planned Example: `src/transformations.clj`
+Planned Example: `src/seq_learn/03_transformations.clj`
 
 Phase 4: Subsequences & Partitioning [DONE]
 ------------------------------------
 Concepts: take, drop, split-at, take-while, drop-while, partition, partition-by.
 Goal: Learn how to slice and dice sequences.
-Planned Example: `src/subsequences.clj`
+Planned Example: `src/seq_learn/04_subsequences.clj`
 
 Phase 5: Laziness & Infinite Sequences [DONE]
 --------------------------------------
 Concepts: LazySeq, realizing sequences, infinite generators.
 Goal: Understand the power and pitfalls of laziness.
-Planned Example: `src/laziness.clj`
+Planned Example: `src/seq_learn/05_laziness.clj`
 
 Phase 6: Performance & Chunking [DONE]
 -------------------------------
 Concepts: Chunked sequences, transducers (intro).
 Goal: Learn how Clojure optimizes sequence processing.
-Planned Example: `src/performance.clj`
+Planned Example: `src/seq_learn/06_performance.clj`
