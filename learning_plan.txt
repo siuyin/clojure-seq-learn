@@ -34,7 +34,7 @@ Concepts: LazySeq, realizing sequences, infinite generators.
 Goal: Understand the power and pitfalls of laziness.
 Planned Example: `src/laziness.clj`
 
-Phase 6: Performance & Chunking
+Phase 6: Performance & Chunking [DONE]
 -------------------------------
 Concepts: Chunked sequences, transducers (intro).
 Goal: Learn how Clojure optimizes sequence processing.

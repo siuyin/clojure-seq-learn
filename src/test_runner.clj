@@ -14,9 +14,12 @@
                  (clojure.string/replace "/" ".")
                  symbol))))
 
-(defn run [_]
-  (doseq [ns (test-namespaces)]
-    (require ns))
-  (let [test-results (apply t/run-tests (test-namespaces))]
-    (when (pos? (+ (:fail test-results) (:error test-results)))
-      (throw (ex-info "Tests failed" test-results)))))
+(defn run [{:keys [ns]}]
+  (let [target-ns (if (seq ns)
+                    (map symbol ns)
+                    (test-namespaces))]
+    (doseq [n target-ns]
+      (require n))
+    (let [test-results (apply t/run-tests target-ns)]
+      (when (pos? (+ (:fail test-results) (:error test-results)))
+        (throw (ex-info "Tests failed" test-results))))))
