@@ -4,4 +4,4 @@
 (defn -main [& args]
   (println "Clojure Sequence Learning Project")
   (println "Use 'make test' to run examples and verify learning.")
-  (println "Current Phase: Phase 4 - Subsequences & Partitioning"))
+  (println "Current Phase: Phase 5 - Laziness & Infinite Sequences"))

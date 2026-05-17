@@ -28,7 +28,7 @@ Concepts: take, drop, split-at, take-while, drop-while, partition, partition-by.
 Goal: Learn how to slice and dice sequences.
 Planned Example: `src/subsequences.clj`
 
-Phase 5: Laziness & Infinite Sequences
+Phase 5: Laziness & Infinite Sequences [DONE]
 --------------------------------------
 Concepts: LazySeq, realizing sequences, infinite generators.
 Goal: Understand the power and pitfalls of laziness.
