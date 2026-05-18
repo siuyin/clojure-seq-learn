@@ -11,8 +11,8 @@
 ;; 2. Infinite Sequences
 ;; A classic example: the Fibonacci sequence.
 (defn fibs
-  ([] (fibs 0 1))
-  ([a b]
+  ([] (fibs 0N 1N))
+  ([a b] 
    (lazy-seq
      (cons a (fibs b (+ a b))))))
 
